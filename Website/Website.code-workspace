@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "D:/PERSONAL/VISUAL STUDIO/JAVA_VS"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"stdio.h": "c",
+			"stdlib.h": "c"
+		},
+		"liveServer.settings.multiRootWorkspaceName": "Website"
+	}
+}

@@ -1,0 +1,173 @@
+/* Style the header with a grey background and some padding */
+.header {
+    overflow: hidden;
+    background-color: #15151538;
+    background-origin:padding-box ;
+    border: #010000;
+    border-radius: 2pc;
+    padding: 5px 5px;
+    width: 100%;
+    height: fit-content;
+    
+  }
+  body{
+    
+    margin-left: 5pc;
+    margin-right: 5pc;
+    margin-bottom: 5pc;
+    background-color: #ffffff;
+  }
+  
+  
+  
+  /* Style the header links */
+ .header a {
+    float: left;
+    color: rgb(14, 8, 8);
+    text-align: center;
+    padding: 12px;
+    text-decoration:none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 5px;
+  }
+  
+  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+  .header a.logo {
+    width:header-width;
+    height: header-height;
+    background-position: 0%;
+    font-size: 25px;
+  }
+  
+  /* Change the background color on mouse-over */
+  .header a:hover {
+    background-color: #1a1919;
+    color: rgb(255, 255, 255);
+    transition: 0.6s ease;
+  }
+  
+  /* Style the active/current link*/
+  .header a.active {
+    background-color: rgb(17, 11, 11);
+    color: rgb(255, 255, 255);
+  }
+  
+  /* Float the link section to the right */
+  .header-right {
+    float:none    ;
+    margin-top: 2pc;
+  }
+  
+  
+  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+  }
+ /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 90%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 6px; /* Bottom margin */
+  display: inline-block;
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+input[type=number],select,textarea{
+  width: 90%;
+  padding: 12px ;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top:6px;
+  margin-bottom:6px;
+
+  resize:vertical;
+}
+input[type=email],select,textarea{
+  width: 90%;
+  padding: 12px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top:6px;
+  margin-bottom:6px;
+  resize:vertical;
+}
+input[type=file]{
+  margin-top: 10px;
+}
+
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #000000;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #86898c;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    position: absolute ;margin-left: 5pc;margin-bottom: 5pc;
+    width: 30%;
+    border-radius: 10px;
+    border-color: #0f95fb;
+    background-color: #5b5a5a;
+    padding: 20px;
+    align-content: center;
+  }
+  .container1{
+    position: absolute ;margin-left: 5pc;margin-bottom: 5pc;
+    width: 30%;
+    border-radius: 10px;
+    border-color: #0f95fb;
+    background-color: #5b5a5a;
+    padding: 20px;
+    align-content: center;
+  }
+
+
+/* CSS for footer */
+footer {
+  position:relative;
+  width: 100%;
+  background-color: #1a0707;
+  color: #fff;
+  margin-top: 5px;
+  height: 9pc;
+  text-align: center;
+  border-radius: 5px;
+ 
+ bottom: 0;
+  width: 100%;
+}
+
+/* CSS for social media links */
+.social {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.social a {
+  display: inline-block;
+  margin:  10px;
+  color: #fff;
+  font-size: 24px;
+}
+
